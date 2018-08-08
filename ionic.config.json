@@ -1,0 +1,7 @@
+{
+  "name": "Eleos",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

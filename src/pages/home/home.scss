@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$primary-color: #651DDB;
+$secondary-color: #FFE021;
+$hyperlink-color: #ABBAD0;
+
+page-home {
+
+}
+
+#loginContainer {
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 400px;
+}
+
+#body {
+    background-color: $primary-color;
+}
+
+input {
+    color: #456;
+    font-weight: default;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: auto;   
+}
+
+label {
+    color: $secondary-color;
+    font-family: 'Lato', sans-serif;
+    size: 1.4em;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: auto;  
+}
+
+#loginButton {
+    color: #2f2f2f;
+    background-color: $secondary-color;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    size: 1.4em;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: auto; 
+}
+
+#loginButtonFb {
+    background-color: #3b5998;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    size: 1.4em;
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-right: auto; 
+}
+
+#forgotPass {
+    color: $hyperlink-color;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer; 
+}
+
+#forgotPass:hover {
+    color: #429ce6;
+}
+
+#forgotPass:active {
+    color: #1b2e5c;
+}
